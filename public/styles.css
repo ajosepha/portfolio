@@ -6,6 +6,7 @@ body {
 h1 {
 	font-family: 'Changa One', bold;
 	font-size: 60px;
+	color: #4E2F2F;
 }
 
 
@@ -35,7 +36,7 @@ a:active {text-decoration:underline;}
 
 .center {
 	
-	margin-left: 50%;
+	margin-left: 40%;
 	border-style: ridge;
 	border-width: 4px;
 	border-color: #483D8B;
@@ -54,7 +55,22 @@ li {
 	width: 45%;
 	margin: 10px;
 	margin-top: -90px;
+	float: left;
 }
+
+.right {
+	float: right;
+	margin-top: -90px;
+	font-family: 'Changa One';	
+	font-size: 18px;
+	color: black;
+	line-height: 200%;
+	padding-right: 20px;
+
+
+}
+
+
 
 
 
