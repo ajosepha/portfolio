@@ -1,16 +1,21 @@
 body {
-	background-color: #F3EFE0;
+	
+	color: #42526C;
 }
 
 .header {
-	font-family: arial, bold;
-	font-size: 40px;
+	font-family: 'Changa One', bold;
+	font-size: 90px;
 	background-color: #120A2A;
-	background-image: url(../images/blue_rug.jpg);
-	color: red;
+	background-image: url(../images/eye-dazzler-childs-navajo-blanket-148-001.jpg);
+	color: white;
 	height: 220px;
 	text-align: center;
-	line-height: 220px
+	line-height: 220px;
+}
+
+.center {
+	margin: auto;
 }
 
 
