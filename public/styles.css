@@ -10,8 +10,7 @@ h1 {
 
 
 a:link {
-	font-family: 'Changa One';
-	
+	font-family: 'Changa One';	
 	font-size: 18px;
 	text-decoration:none;
 }
@@ -31,6 +30,7 @@ a:active {text-decoration:underline;}
 	height: 250px;
 	text-align: center;
 	line-height: 220px;
+	margin-top: -40px;
 }
 
 .center {
@@ -40,9 +40,9 @@ a:active {text-decoration:underline;}
 	border-width: 4px;
 	border-color: #483D8B;
 	border-radius: 6px;
-	width: 120px;
-	height: 130px;
-	margin-top: -10px;
+	width: 150px;
+	height: 150px;
+	margin-top: -30px;
 	color: white;
 }
 
@@ -53,7 +53,7 @@ li {
 .left {
 	width: 45%;
 	margin: 10px;
-	margin-top: -50px;
+	margin-top: -90px;
 }
 
 
