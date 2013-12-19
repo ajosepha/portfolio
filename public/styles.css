@@ -1,6 +1,10 @@
-body {
-	
+body {	
 	color: #42526C;
+}
+
+h1 {
+	font-family: 'Changa One', bold;
+	font-size: 60px;
 }
 
 .header {
@@ -8,15 +12,34 @@ body {
 	font-size: 90px;
 	background-color: #120A2A;
 	background-image: url(../images/eye-dazzler-childs-navajo-blanket-148-001.jpg);
+	background-size: 50%;
 	color: white;
-	height: 220px;
+	height: 250px;
 	text-align: center;
 	line-height: 220px;
 }
 
 .center {
-	margin: auto;
+	
+	margin-left: 50%;
+	border-style: ridge;
+	border-width: 2px;
+	border-color: #52267F;
+	width: 100px;
+	height: 90px;
+	margin-top: -10px;
 }
+
+li {
+	list-style-type: none;
+}
+
+.left {
+	width: 45%;
+	margin: 10px;
+	margin-top: -50px;
+}
+
 
 
 
