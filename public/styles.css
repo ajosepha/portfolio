@@ -1,28 +1,30 @@
 body {	
-	color: #4E2F2F;
-	background-image: url(../images/brick.jpg);
+	color: white;
+	background-color: #000033
 }
 
 h1 {
 	font-family: 'Changa One', bold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-size: 60px;
-	color: #4E2F2F;
+	color: #EFECE5;
 }
 
 
 a:link {
-	font-family: 'Changa One';	
+	font-family: 'Alegreya Sans', sans-serif;	
 	font-size: 18px;
 	text-decoration:none;
 }
-a:visited {color: black;
+a:visited {color: white;
 	text-decoration:none;}
-a:hover {color: #590000;
+a:hover {color: #CC9933;
 	text-decoration:underline;}
 a:active {text-decoration:underline;}
 
 .header {
-	font-family: 'Changa One', bold;
+	font-family: 'Changa One';
+	text-shadow: 2px 2px 1px black;
 	font-size: 90px;
 	background-color: #120A2A;
 	background-image: url(../images/rug1.jpg);
@@ -61,11 +63,12 @@ li {
 .right {
 	float: right;
 	margin-top: -90px;
-	font-family: 'Changa One';	
+	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 18px;
-	color: black;
+	color: white;
 	line-height: 200%;
 	padding-right: 20px;
+	padding-left: 20px;
 
 
 }
