@@ -1,0 +1,19 @@
+body {
+	background-color: #F3EFE0;
+}
+
+.header {
+	font-family: arial, bold;
+	font-size: 40px;
+	background-color: #120A2A;
+	background-image: url(../images/blue_rug.jpg);
+	color: red;
+	height: 220px;
+	text-align: center;
+	line-height: 220px
+}
+
+
+
+
+
