@@ -1,6 +1,7 @@
 body {	
 	background-image:url(images/orsay.jpg);
 	background-size: cover;
+	margin-left: 20px;
 	
 }
 
@@ -12,25 +13,32 @@ body {
 }*/
 
 a:link {
-	font-size: 18px;
+	font-size: 30px;
 	text-decoration:none;
 	color:  #D6665A;
 }
 a:visited {
-	color:  ##C9E2DC; 
+	color:  #DC9B74; 
 	text-decoration:none;
 }
 a:hover {
 	color: #CC9933;
-	text-decoration:underline;
-}
+	text-decoration:underline;}
 a:active {
 	text-decoration:underline;
-	color: #pink;
+	color: #e79b8d;
 }
 
 .col-md-4 {
 	font-weight: bold;
+	background-color: #42282E;
+
+}
+
+.col-md-12 {
+	position: absolute; bottom: 2em;
+	text-align: center;
+	color: #D6665A;
 }
 
 .center {	
@@ -46,7 +54,8 @@ a:active {
 }
 
 h2{
-	color: #42282E;
+	color:#D6665A;
+	size: 40px;
 }
 
 /*li {
