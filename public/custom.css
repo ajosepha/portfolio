@@ -1,15 +1,15 @@
 body {	
-	color: white;
-	background-color: #000033
-	padding-top: 70px;
+	background-image:url(images/orsay.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
 }
 
-h1 {
+/*h1 {
 	font-family: 'Changa One', bold;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-size: 60px;
 	color: #EFECE5;
-}
+}*/
 
 a:link {
 	font-family: 'Alegreya Sans', sans-serif;	
@@ -27,19 +27,6 @@ a:active {
 	text-decoration:underline;
 }
 
-.header {
-	font-family: 'Changa One';
-	text-shadow: 2px 2px 1px black;
-	font-size: 90px;
-	background-color: #120A2A;
-	background-image: url(../images/rug1.jpg);
-	background-size: 100%;
-	color: #EFECE5;
-	height: 250px;
-	text-align: center;
-	line-height: 220px;
-	margin-top: -40px;
-}
 
 .center {	
 	margin-left: 40%;
@@ -53,7 +40,7 @@ a:active {
 	color: white;
 }
 
-li {
+/*li {
 	list-style-type: none;
 }
 
@@ -74,7 +61,7 @@ li {
 	padding-right: 20px;
 	padding-left: 20px;
 }
-
+*/
 
 
 
