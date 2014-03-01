@@ -47,39 +47,18 @@ a:active {
 	border-color: #483D8B;
 	border-radius: 6px;
 	width: 156px;
-	height: 156px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top: -80px;
+	float: left;
+	margin-right: 1em;
+/*	height: 156px;*/
 }
 
+
+}
 h2{
 	color:#D6665A;
 	size: 40px;
 }
 
-/*li {
-	list-style-type: none;
-}
-
-.left {
-	width: 45%;
-	margin: 10px;
-	margin-top: -90px;
-	float: left;
-}
-
-.right {
-	float: right;
-	margin-top: -90px;
-	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 18px;
-	color: white;
-	line-height: 200%;
-	padding-right: 20px;
-	padding-left: 20px;
-}
-*/
 
 
 
