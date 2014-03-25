@@ -1,9 +1,21 @@
 body {	
-	background-image:url(images/orsay.jpg);
+	background-image:url(images/nuit_blanche.jpg);
 	background-size: cover;
 	margin-left: 20px;
 	padding: 50px;
 	
+}
+
+.headline{
+	/* default fallback */
+background: rgb(255, 255, 255) transparent;
+/* nice browsers */
+background: rgba(255, 255, 255, 0.5);
+text-align: center;
+}
+
+li {
+	color: white;
 }
 
 .page-header {
@@ -13,10 +25,10 @@ body {
 a:link {
 	font-size: 30px;
 	text-decoration:none;
-	color:  #D6665A;
+	color: #34DDDD;
 }
 a:visited {
-	color:  #DC9B74; 
+	color:  #FFF5EE; 
 	text-decoration:none;
 }
 a:hover {
@@ -29,21 +41,21 @@ a:active {
 
 
 .try a {
-	color: red;
+	color: blue;
 }
-.col-md-4 {
-	font-weight: bold;
-	background-color: #42282E;
 
+.try {
+	text-align: center;
 }
+
 
 .col-md-12 {
 	position: absolute; bottom: 2em;
 	text-align: center;
 	color: #D6665A;
-/*	background-color: red;
-	display: inline-block;*/
+	display: inline-block;
 }
+
 .col-md-12 .try {
 	color: black;
 	display: inline-block;
@@ -66,9 +78,7 @@ a:active {
 	text-align: center;
 }
 
-.btn-primary a{
-	color: white;
-}
+
 
 
 
