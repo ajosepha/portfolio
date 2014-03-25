@@ -10,9 +10,11 @@ module Name
   class App < Sinatra::Application
 
     get '/' do
-      
-
       erb :index
+    end
+
+    get '/projects' do
+      erb :projects
     end
 
   

@@ -2,9 +2,13 @@ body {
 	background-image:url(images/orsay.jpg);
 	background-size: cover;
 	margin-left: 20px;
+	padding: 50px;
 	
 }
 
+.page-header {
+	background-color: white;
+}
 
 a:link {
 	font-size: 30px;
@@ -23,6 +27,10 @@ a:active {
 	color: #e79b8d;
 }
 
+
+.try a {
+	color: red;
+}
 .col-md-4 {
 	font-weight: bold;
 	background-color: #42282E;
@@ -54,9 +62,13 @@ a:active {
 	margin-right: 1em;
 /*	height: 156px;*/
 
+.back {
+	text-align: center;
+}
 
-
-
+.btn-primary a{
+	color: white;
+}
 
 
 
