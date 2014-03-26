@@ -1,8 +1,9 @@
 body {	
-	background-image:url(images/nuit_blanche.jpg);
-	background-size: cover;
+	/*background-image:url(images/nuit_blanche.jpg);
+	background-size: cover;*/
 	margin-left: 20px;
 	padding: 50px;
+	background-color: #2F4F4F;
 	
 }
 
