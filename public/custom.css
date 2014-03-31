@@ -1,10 +1,18 @@
 body {	
-	/*background-image:url(images/nuit_blanche.jpg);
-	background-size: cover;*/
-	margin-left: 20px;
+	background-image:url(images/nuit_blanche.jpg);
+	background-size: cover;
+	/*margin-left: 20px;
+	margin-right: 20px;*/
 	padding: 50px;
 	background-color: #2F4F4F;
 	
+}
+
+.jumbotron {
+	background: rgb(255, 255, 255) transparent;
+	background: rgba(255, 255, 255, 0.5);
+	color: black;
+
 }
 
 .headline{
@@ -12,11 +20,16 @@ body {
 background: rgb(255, 255, 255) transparent;
 /* nice browsers */
 background: rgba(255, 255, 255, 0.5);
-text-align: center;
+color: black;
+}
+
+.header-text{
+	text-align: center;
+	padding: .5em;
 }
 
 li {
-	color: white;
+	color: black;
 }
 
 .page-header {
@@ -26,27 +39,31 @@ li {
 a:link {
 	font-size: 30px;
 	text-decoration:none;
-	color: #34DDDD;
+	color: #912e07;
 }
 a:visited {
-	color:  #FFF5EE; 
+/*	color: #912e07;*/
+	color:  #054553; 
 	text-decoration:none;
 }
 a:hover {
-	color: #CC9933;
+	color: #0e869e;
 	text-decoration:underline;}
 a:active {
 	text-decoration:underline;
-	color: #e79b8d;
+	color:#912e07;
 }
 
 
-.try a {
+/*.try a {
 	color: blue;
-}
+}*/
 
 .try {
 	text-align: center;
+	margin-bottom: 1em;
+	/*border: 2px solid black;
+	display: inline-block;*/
 }
 
 
