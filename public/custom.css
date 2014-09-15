@@ -1,8 +1,7 @@
 body {	
-	background-image:url(images/nuit_blanche.jpg);
+	background-image:url(images/nuit_blanche2.jpg);
 	background-size: cover;
-	/*margin-left: 20px;
-	margin-right: 20px;*/
+	font-family: 'Montserrat', sans-serif;
 	padding: 50px;
 	background-color: #2F4F4F;
 	
@@ -15,10 +14,13 @@ body {
 
 }
 
+.welcome{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
 .headline{
-	/* default fallback */
 background: rgb(255, 255, 255) transparent;
-/* nice browsers */
 background: rgba(255, 255, 255, 0.5);
 color: black;
 }
@@ -32,6 +34,7 @@ li {
 	color: black;
 }
 
+
 .page-header {
 	background-color: white;
 }
@@ -39,15 +42,14 @@ li {
 a:link {
 	font-size: 30px;
 	text-decoration:none;
-	color: #912e07;
+	color: #ff9900;
 }
 a:visited {
-/*	color: #912e07;*/
-	color:  #054553; 
+	color:  #cc9d57; 
 	text-decoration:none;
 }
 a:hover {
-	color: #0e869e;
+	color: #dcb74f;
 	text-decoration:underline;}
 a:active {
 	text-decoration:underline;
@@ -55,15 +57,27 @@ a:active {
 }
 
 
-/*.try a {
-	color: blue;
-}*/
-
 .try {
 	text-align: center;
 	margin-bottom: 1em;
-	/*border: 2px solid black;
-	display: inline-block;*/
+	font-weight: bold;
+	
+}
+
+.col-md-4 > a {
+	text-shadow: 1px 1px 2px black;
+}
+
+.col-md-3 > a{
+	text-shadow: 1px 1px 2px black;
+}
+.try > a{
+	color: #B2604B;
+	text-shadow: 1px 1px 2px black;
+}
+
+.try >a:hover{
+	color: rgb(220, 183, 79);
 }
 
 
@@ -89,16 +103,19 @@ a:active {
 	border-radius: 6px;
 	width: 156px;
 	float: left;
-	margin-right: 1em;
-/*	height: 156px;*/
-
+	margin-right: 20px;
+}
 .back {
 	text-align: center;
 }
 
+ a.myHead{
+	color: white !important;
+}
 
-
-
+a.myHead:hover{
+	color: #f3f0df !important;
+}
 
 
 
