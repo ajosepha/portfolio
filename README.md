@@ -1,4 +1,4 @@
 portfolio
 =========
 
-currently a work in progress
+My porftfolio site, check out the projects I've been working on!
