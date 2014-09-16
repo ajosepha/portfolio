@@ -124,10 +124,14 @@ a:hover{
 	width: 200px
 }
 
+.container{
+	padding-right: 0px;
+}
+
 .card{
 	display: inline-block;
 	width: 23%;
-	height: 250px;
+	height: 200px;
 /*	border: 1px solid black;*/
 	border-radius: 3px;
 	margin-right: 20px;
@@ -155,11 +159,19 @@ a:hover{
   background-repeat: no-repeat;
 }
 
+.card-container h2{
+	font-family: 'Open Sans Condensed';
+	font-style: italic;
+	
+}
+
 .zip{
 	background-image: url('images/zip2.png');
 	background-color: white;
-  background-position: center;
+	background-position: center;
   background-size: auto 100%;
+  background-repeat: no-repeat;
+
 }
 
 .holiday{
@@ -215,10 +227,10 @@ a:hover{
 
 
 .side2 .side2-content{
-	font-size: 1em;
+	font-size: 12px;
 	padding-left: 1em;
 	padding-right: 1em;
-	padding-top: 2em;
+	padding-top: 20px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: 2px;
 }
@@ -228,7 +240,7 @@ a:hover{
 	font-family:'Open Sans Condensed', sans-serif;
 	font-weight: bold;
 	padding-bottom: 20px;
-	font-size: 24px;
+	font-size: 18px;
 	padding-top: 10px;
 }
 
