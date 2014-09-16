@@ -1,28 +1,68 @@
+<div class="container">
+  <div class="left-header"> 
+    <h1>ARIEL ISAACS</h1>
+    <div><i class="fa fa-envelope"></i><i class="fa fa-linkedin"></i><i class="fa fa-github"></i><i class="fa fa-tumblr-square"></i><i class="fa fa-twitter"></i></div>
+  </div>
+  <div class="right-content">
+    New York and San Francisco based web developer. Brown and Columbia University graduate.
+  </div>
+</div>
 
-	<div class="jumbotron">
-		<div class="welcome">
-			<h1>Welcome to Ariel's Portfolio</h1>
-		</div>
 
-				<div class = "center"> 
-					<img src = "../images/ariel2.jpg" height= "150px" width = "150px">
-				</div>
+<div class="card-container">
+  <div class="card">
+    <div class="side1">Map Game</div>
+    <div class="side2 hidden">About Map game</div>
+  </div>
+
+  <div class="card"> 
+    <div class="side1">I will be a screen shot</div>
+    <div class="side2 hidden">I will be text</div>   
+  </div>
+
+  <div class="card">
+
+    <div class="side1">I will be a screen shot</div>
+    <div class="side2 hidden">I will be text</div>   
+  </div>
+
+  <div class="card"> 
+  <div class="side1">I will be a screen shot</div>
+    <div class="side2 hidden">I will be text</div>    
+  </div>
+
+  <div class="card">
+  <div class="side1">I will be a screen shot</div>
+    <div class="side2 hidden">I will be text</div>     
+  </div>
+
+   <div class="card">
+    <div class="side1">I will be a screen shot</div>
+    <div class="side2 hidden">I will be text</div>   
+  </div>
 
 
+</div>
 
-			<p>I recently graduated from the Flatiron School's first NYC Web Development Fellowship in Brooklyn, NY.  Before moving to New York last year,
-		 	I spent two years living in Paris where I got a Master’s in 
-		 	French Cultural Studies in a Global Context from Columbia 
-		 	University and worked as a consultant at Image 7,
-		 	a financial PR firm. I’m fascinated by the intersection of 
-		 	technology and humanities. I graduated from Brown with a degree
-		  	in Classics.</p> 	
 
-      <div class = "try">
-         <a href ='/projects'>Projects </a>
-      </div>
+<script>
 
-	</div>
+var $this = $(this);
+
+$(".card").mouseover(function(){
+  // console.log("mouse over");
+  $( this).find(".side1").addClass("hidden");
+  $( this).find(".side2").removeClass("hidden")
+})
+
+$(".card").mouseleave(function(){
+  $(this).find(".side1").removeClass("hidden");
+  $(this).find(".side2").addClass("hidden")
+  // console.log("mouse has left")
+})
+</script>
+
+
 	
 
 
