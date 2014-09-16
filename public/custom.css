@@ -126,16 +126,16 @@ a:hover{
 
 .card{
 	display: inline-block;
-	width: 26%;
+	width: 23%;
 	height: 250px;
 /*	border: 1px solid black;*/
 	border-radius: 3px;
-	margin-right: 80px;
-	margin-bottom: 80px;
+	margin-right: 20px;
+	margin-bottom: 40px;
 	vertical-align: top;
 }
 
-.card:nth-child(3n+3){
+.card:nth-child(4n+4){
 	margin-right: 0px;
 }
 
@@ -183,6 +183,20 @@ a:hover{
   background-size: 100% 100%;
 }
 
+.smoker{
+	background-image: url('images/cigquiz.png');
+	background-color: white;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.bcourt{
+	background-image: url('images/bcourt.png');
+	background-color: white;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
 .card-container{
 	margin-top: 80px;
 }
@@ -204,7 +218,7 @@ a:hover{
 	font-size: 1em;
 	padding-left: 1em;
 	padding-right: 1em;
-	padding-top: 4em;
+	padding-top: 2em;
 	font-family: 'Open Sans Condensed', sans-serif;
 	letter-spacing: 2px;
 }
