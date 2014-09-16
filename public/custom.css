@@ -4,11 +4,9 @@ h1{
 }
 
 body {	
-
 	font-family: 'helvetica';
 	padding: 50px;
 	background-color: white;
-	
 }
 
 .right-content{
@@ -55,20 +53,16 @@ li {
 
 
 
-.try {
-	text-align: center;
-	margin-bottom: 1em;
-	font-weight: bold;
-	
-}
 
-.col-md-4 > a {
-	text-shadow: 1px 1px 2px black;
-}
+
+
 
 a{
-	font-size: 20px;
 	color: black;
+}
+
+a:hover{
+	color: #4d4d4d;
 }
 
 i{ 
@@ -82,13 +76,16 @@ i{
 	float:left; display: inline-block
 }
 
+.links{
+	font-size: 12px;
+}
+
 .left-header > h1{
 	margin-left: 7px;
 }
 
 
-.try >a:hover{
-	color: #545454;
+a:hover{
 	text-decoration: none;
 }
 
@@ -140,19 +137,56 @@ i{
 
 .card{
 	display: inline-block;
-	width: 25%;
-	height: 230px;
+	width: 29%;
+	height: 250px;
 	border: 1px solid black;
 	margin-right: 40px;
 	margin-bottom: 40px;
-	vertical-align: top
+	vertical-align: top;
 }
 
-.fixed{
-	position: absolute;
-	width: 100%;
-	height: 80px;
-	overflow: auto;
+.bcp{
+	background-image: url('images/bcp2.png');
+	background-color: white;
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.homepolish{
+	background-image: url('images/homepolish.png');
+	background-color: white;
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.zip{
+	background-image: url('images/zip2.png');
+	background-color: white;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.holiday{
+	background-image: url('images/holiday.png');
+	background-color: white;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.plum{
+	background-image: url('images/plum.png');
+	background-color: white;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.match{
+		background-image: url('images/match.png');
+	background-color: white;
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 .card-container{
@@ -162,6 +196,32 @@ i{
 .hidden{
 	display: none;
 }
+
+.side2{
+	height: 100%;
+	background: rgba(0,0,0, 0.8);
+	color: white;
+}
+
+
+
+.side2 .side2-content{
+	padding: 0 30px;
+	font-size: 16px;
+	padding-top: 40px;
+}
+
+.side2-headline{
+	color: #dcb74f;
+	font-family:'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	padding-bottom: 20px;
+	font-size: 24px;
+	padding-top: 10px;
+}
+
+
+
 
 
 

@@ -1,47 +1,126 @@
 <div class="container">
   <div class="left-header"> 
     <h1>ARIEL ISAACS</h1>
-    <div><i class="fa fa-envelope"></i><i class="fa fa-linkedin"></i><i class="fa fa-github"></i><i class="fa fa-tumblr-square"></i><i class="fa fa-twitter"></i></div>
+    <div class="links">
+     <a href="mailto:ariel.isaacs@gmail.com" target="_top">
+        <i class="fa fa-envelope">
+        </i>
+      </a>
+      <a href="https://github.com/ajosepha">
+        <i class="fa fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/ajosepha">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <a href="http://ajosepha.tumblr.com/">
+        <i class="fa fa-tumblr-square"></i>
+      </a>
+      <a href="https://twitter.com/arielisaacs">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </div>
   </div>
   <div class="right-content">
     New York and San Francisco based web developer. Brown and Columbia University graduate.
   </div>
 </div>
 
-
+<div class="container">
 <div class="card-container">
-  <div class="card">
-    <div class="side1">Map Game</div>
-    <div class="side2 hidden">About Map game</div>
-  </div>
 
-  <div class="card"> 
-    <div class="side1">I will be a screen shot</div>
-    <div class="side2 hidden">I will be text</div>   
-  </div>
-
-  <div class="card">
-
-    <div class="side1">I will be a screen shot</div>
-    <div class="side2 hidden">I will be text</div>   
-  </div>
-
-  <div class="card"> 
-  <div class="side1">I will be a screen shot</div>
-    <div class="side2 hidden">I will be text</div>    
-  </div>
-
-  <div class="card">
-  <div class="side1">I will be a screen shot</div>
-    <div class="side2 hidden">I will be text</div>     
-  </div>
-
-   <div class="card">
-    <div class="side1">I will be a screen shot</div>
-    <div class="side2 hidden">I will be text</div>   
+  <div class="card bcp">
+    <a href="http://bcpills.herokuapp.com/#/pills" target="blank">
+    <div class="side1"></div>
+    <div class="side2 hidden">
+      <div class = "side2-content">
+        <div class="side2-headline">
+          What's in your birth control?
+        </div>
+          An AngularJS and Sinatra app that uses Nokogiri to parse and persist data from the National Library of Health
+        </div>
+      </div>
+    </a>
   </div>
 
 
+    <div class="card homepolish">
+      <a href="https://github.com/ArmandoAmador/Homepolish" target="blank">
+    <div class="side1"></div>
+    <div class="side2 hidden">
+      <div class="side2-content">
+        <div class="side2-headline">
+          Homepolish
+        </div>
+        Internally-facing Ruby on Rails social media data analysis application that aggregates Twitter and Instagram follower information. Uses Omniauth gem for Instagram and Twitter to authenticate users’ accounts.
+      </div> 
+    </div> 
+    </a> 
+  </div>
+
+    <div class="card plum">
+    <a href="http://www.self.com/flash/news/2014/08/self-magazine-clinton-foundation-jawbone-ace-hotel-codeathon-womens-nutrition/" target="blank">
+    <div class="side1"></div>
+      <div class="side2 hidden">
+        <div class = "side2-content">
+          <div class="side2-headline">
+            Plum
+          </div>
+            Runner up at the Clinton Foundation's Code for Health Hackathon for a Ruby on Rails app that texts users if a product is WIC eligible. App will be in the November 2104 issue of SELF magazine.
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="card zip"> 
+  <a href="http://zipgame.herokuapp.com/" target="blank">
+    <div class="side1"></div>
+      <div class="side2 hidden">
+        <div class="side2-content">
+          <div class="side2-headline">
+            Zip Code Game
+          </div>
+          A Ruby on Rails game that parses and persists NYC open data. Uses JQuery to improve UX and create game play. 
+        </div> 
+      </div>
+    </a>  
+  </div>
+
+
+
+
+   <div class="card match">
+    <a href="http://quotes-memory-game.herokuapp.com/" target="blank">
+    <div class="side1"></div>
+      <div class="side2 hidden">
+        <div class = "side2-content">
+          <div class="side2-headline">
+            Card Game
+          </div>
+            Sinatra app that uses Jquery to implement an author and quote matching game.
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="card holiday"> 
+    <a href="http://isitajewishholidaytoday.herokuapp.com/" target="blank">
+    <div class="side1"></div>
+    <div class="side2 hidden">
+      <div class = "side2-content">
+        <div class="side2-headline">
+          Is today a Jewish Holiday?
+        </div>
+        Sinatra app that uses the Ruby DateTime class to show if today is a Jewish holiday.
+      </div>
+    </div>
+  </a>
+  </div>
+
+
+
+
+
+</div>
 </div>
 
 
@@ -58,7 +137,6 @@ $(".card").mouseover(function(){
 $(".card").mouseleave(function(){
   $(this).find(".side1").removeClass("hidden");
   $(this).find(".side2").addClass("hidden")
-  // console.log("mouse has left")
 })
 </script>
 
