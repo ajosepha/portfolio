@@ -13,7 +13,8 @@ body {
 	font-family:  'Open Sans Condensed', sans-serif;
 	float:right; 
 	display: inline-block; 
-	width: 200px;
+	width: 260px;
+	margin-right: 20px;
 
 }
 .jumbotron {
@@ -132,16 +133,14 @@ a:hover{
 	display: inline-block;
 	width: 23%;
 	height: 200px;
-/*	border: 1px solid black;*/
+	border: 1px solid #d3d3d3;
 	border-radius: 3px;
 	margin-right: 20px;
 	margin-bottom: 40px;
 	vertical-align: top;
 }
 
-.card:nth-child(4n+4){
-	margin-right: 0px;
-}
+
 
 .bcp{
 	background-image: url('images/bcp2.png');
@@ -210,7 +209,7 @@ a:hover{
 }
 
 .card-container{
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 .hidden{
