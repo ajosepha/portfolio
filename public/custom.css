@@ -140,7 +140,15 @@ a:hover{
 }
 
 
+.bcp1{
+	background-image: url('images/bcp1.png');
+	background-color: white;
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 
+
+}
 .bcp{
 	background-image: url('images/bcp2.png');
 	background-color: white;
