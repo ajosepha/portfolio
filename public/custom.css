@@ -85,13 +85,15 @@ a:hover{
 	text-decoration: none;
 }
 
-
-.col-md-12 {
+.row {
+	margin-left: 40px;
+}
+/*.col-md-12 {
 	position: absolute; bottom: 2em;
 	text-align: center;
 	color: #D6665A;
 	display: inline-block;
-}
+}*/
 
 
 .center {	
@@ -124,13 +126,8 @@ a:hover{
 	width: 200px
 }
 
-.container{
-	padding-right: 0px;
-}
 
 .card{
-	display: inline-block;
-	width: 23%;
 	height: 200px;
 	border: 1px solid #d3d3d3;
 	border-radius: 3px;
@@ -139,44 +136,51 @@ a:hover{
 	vertical-align: top;
 }
 
+.card-container h2{
+	font-family: 'Open Sans Condensed';
+	font-style: italic;
+}
 
 .bcp1{
 	background-image: url('images/bcp1.png');
 	background-color: white;
   background-position: center;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 .bcp{
 	background-image: url('images/bcp2.png');
 	background-color: white;
   background-position: center;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .homepolish{
 	background-image: url('images/homepolish.png');
 	background-color: white;
   background-position: center;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.card-container h2{
-	font-family: 'Open Sans Condensed';
-	font-style: italic;
-	
-}
+
 
 .zip{
 	background-image: url('images/zip2.png');
 	background-color: white;
 	background-position: center;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
@@ -184,35 +188,51 @@ a:hover{
 	background-image: url('images/holiday.png');
 	background-color: white;
   background-position: center;
-  background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 .plum{
 	background-image: url('images/plum.png');
 	background-color: white;
   background-position: center;
-  background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .match{
 		background-image: url('images/match.png');
 	background-color: white;
   background-position: center;
-  background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .smoker{
 	background-image: url('images/cigquiz.png');
 	background-color: white;
   background-position: center;
-  background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .bcourt{
 	background-image: url('images/bcourt.png');
 	background-color: white;
   background-position: center;
-  background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .card-container{
