@@ -85,16 +85,6 @@ a:hover{
 	text-decoration: none;
 }
 
-.row {
-	margin-left: 40px;
-}
-/*.col-md-12 {
-	position: absolute; bottom: 2em;
-	text-align: center;
-	color: #D6665A;
-	display: inline-block;
-}*/
-
 
 .center {	
 	border-style: ridge;
@@ -265,6 +255,10 @@ a:hover{
 	font-weight: bold;
 	padding-bottom: 20px;
 	font-size: 18px;
+}
+
+.spacer{
+  height: 20px;
 }
 
 
